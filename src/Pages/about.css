@@ -1,0 +1,39 @@
+/* about.css */
+
+.about-page {
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ff4d4d;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.about-content p {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
