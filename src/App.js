@@ -16,6 +16,7 @@ import { Vector } from './Pages/Vector.js';
 import { USA } from './Pages/USA.js';
 import { DetailedCard } from './Pages/detailcard/index.js';
 import {About} from "./Pages/about.js"
+import { EditDocumentDetail } from './Pages/EditDocumentDetailsPage/index.js';
 import Footer from './Components/Footer/footer.js';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/detailcardpage/:id" element={<DetailedCard />} />
+        <Route path="/editdocumentdetails" element={<EditDocumentDetail />} />
       </Routes>
         <Footer />
     </Router>

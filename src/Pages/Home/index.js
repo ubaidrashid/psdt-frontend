@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { ControlledCarousel } from "../../Components/HeroHome.js";
 import { AllCards } from "../../Components/AllCards/index.js";
+import { EditDoc } from "../../Components/Editdocuments/index.js";
 import './home.css';
 
 export const Home = () => {
@@ -19,7 +20,9 @@ export const Home = () => {
       <ControlledCarousel />
       <div className='afterHero'>
         <AllCards />
-        <div className="sidebar"></div>
+        <div className="sidebar">
+          <EditDoc />
+        </div>
       </div>
     </main>
   );
