@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../detailcard/detailcard.css";
 import logo from "../../assets/images/logo/mainLogo.png";
 
 export const EditDocumentDetail = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0); // scrolls to the top when component mounts
+    }, []);
     // Hardcoded data
     const doc = {
         title: "Professional Document Editing",
@@ -15,13 +18,13 @@ export const EditDocumentDetail = () => {
     const [userInput, setUserInput] = useState("");
 
     const handlePlaceOrder = (type) => {
+
+
         if (!userInput.trim()) {
             alert("Please enter the details of your request before sending.");
             return;
         }
-
-        const message = `Hello,
-        ${userInput}`;
+        const message = `Edit Request: ${doc.title}\n\n${userInput}`;
         const phoneNumber = "923102638500";
         const encodedMessage = encodeURIComponent(message);
 

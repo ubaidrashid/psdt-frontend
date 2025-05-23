@@ -17,7 +17,9 @@ import { USA } from './Pages/USA.js';
 import { DetailedCard } from './Pages/detailcard/index.js';
 import {About} from "./Pages/about.js"
 import { EditDocumentDetail } from './Pages/EditDocumentDetailsPage/index.js';
+import {BackroundCardDetail} from './Pages/backgroundCardDetailPage/index.js';
 import Footer from './Components/Footer/footer.js';
+
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/detailcardpage/:id" element={<DetailedCard />} />
         <Route path="/editdocumentdetails" element={<EditDocumentDetail />} />
+        <Route path="/cardswithbackground" element={<BackroundCardDetail />} />
       </Routes>
         <Footer />
     </Router>
