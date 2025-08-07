@@ -1,0 +1,40 @@
+.footer-logo {
+  height: 40px;
+}
+
+.footer-icon {
+  transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  color: #ff4d4d;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.footer {
+  border-top: 1px solid #333;
+}
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-brand img.logo {
+  height: 40px;
+}
+
+.footer-brand h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
+}

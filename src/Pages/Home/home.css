@@ -1,0 +1,39 @@
+/* home.css */
+
+main {
+  background-color: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.afterHero {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 2rem;
+  /* flex-wrap: wrap; */
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 300px; */
+  border-radius: 8px;
+  height: fit-content;
+  /* padding: 1rem; */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .afterHero {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+
+  }
+}
