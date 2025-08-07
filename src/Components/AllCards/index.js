@@ -10,7 +10,7 @@ export const AllCards = () => {
   useEffect(() => {
     const fetchCards = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/cards"); // <-- Replace with your actual backend route
+        const response = await fetch("https://psdt-backend-production.up.railway.app/api/cards"); // <-- Replace with your actual backend route
         const data = await response.json();
         setCardsData(data);
         setLoading(false);

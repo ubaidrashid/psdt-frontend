@@ -7,7 +7,7 @@ export const ID = () => {
   const [filteredCards, setFilteredCards] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/cards")
+    fetch("https://psdt-backend-production.up.railway.app/api/cards")
       .then((response) => response.json())
       .then((data) => {
         const IDCards = data.filter(card => card.category === "ID");

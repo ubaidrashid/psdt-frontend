@@ -7,7 +7,7 @@ import './card.css';
 export function SingleCard({ id , image, title, price, description, detailImage }) {
   return (
     <Card className='card'>
-      <Card.Img variant="top" src={`http://localhost:5000${image}`} className='card-image' />
+      <Card.Img variant="top" src={`https://psdt-backend-production.up.railway.app${image}`} className='card-image' />
       <Card.Body className='card-body'>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
