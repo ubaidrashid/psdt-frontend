@@ -10,7 +10,7 @@ export const DetailedCard = () => {
   useEffect(() => {
     const fetchCard = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/api/cards/${id}`);
+        const res = await fetch(`https://psdt-backend-production.up.railway.app/api/cards/${id}`);
         if (!res.ok) {
           throw new Error("Card not found");
         }
@@ -92,7 +92,7 @@ export const DetailedCard = () => {
 
         <section className="imgSection" aria-label="Card preview image">
           <img
-            src={`http://localhost:5000${card.detailImage}`}
+            src={`https://psdt-backend-production.up.railway.app${card.detailImage}`}
             alt={`Preview of ${card.title}`}
             loading="lazy"
           />
