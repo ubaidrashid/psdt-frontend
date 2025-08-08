@@ -49,3 +49,9 @@
 .edit-doc-container:hover .overlay {
     opacity: 1;
 }
+
+@media(max-width:600px){
+    .overlay{
+        opacity: 1;
+    }
+}

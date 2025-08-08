@@ -94,20 +94,32 @@
 .placeOrder:active {
   background-color: #cc0000;
 }
+.order-buttons{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* margin-top: 20px; */
+}
 
 /* Responsive adjustments */
 @media (max-width: 1000px) {
   .coverUp {
     grid-template-columns: 1fr;
   }
+  .detailed-card{
+    padding: 30px 10px;
+  }
   .textsection {
     padding: 20px;
     padding-bottom: 50px;
   }
-}
-.order-buttons{
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  /* margin-top: 20px; */
+  .order-buttons{
+    display: flex;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* margin-top: 20px; */
+  }
+  .placeOrder{
+    width: 100%;
+  }
 }

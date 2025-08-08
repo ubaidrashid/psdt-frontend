@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "../detailcard/detailcard.css";
-import logo from "../../assets/images/logo/mainLogo.png";
+import logo from "../../assets/images/editdocimg/editdocfront2.jpg";
 
 export const EditDocumentDetail = () => {
     useEffect(() => {
@@ -52,7 +52,7 @@ export const EditDocumentDetail = () => {
                         {doc.description}
                     </p>
                     <section className="card-details">
-                        <p style={{ lineHeight: "1.5", fontSize: "18px" }}>
+                        <p style={{ lineHeight: "1.5", fontSize: "16px" }}>
                             <strong style={{ fontSize: "22px" }}>Our Editing Services</strong>
                             <br />
                             {doc.detailedDescription}

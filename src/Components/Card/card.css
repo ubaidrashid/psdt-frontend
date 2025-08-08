@@ -16,7 +16,7 @@
 } */
 
 .card-image {
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-bottom: 1px solid #333;
 }
@@ -53,4 +53,13 @@
 
 .card-body .btn:hover {
   background-color: #e60000;
+}
+
+@media(max-width:600px){
+  .card{
+    background-color: #ffffff1c;
+  }
+  .price{
+    color: #00cc66;
+  }
 }

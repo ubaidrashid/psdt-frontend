@@ -52,7 +52,7 @@ export const BackroundCardDetail = () => {
                         {doc.description}
                     </p>
                     <section className="card-details">
-                        <p style={{ lineHeight: "1.5", fontSize: "18px" }}>
+                        <p style={{ lineHeight: "1.5", fontSize: "16px" }}>
                             <strong style={{ fontSize: "22px" }}>Our Background Editing Feature</strong>
                             <br />
                             {doc.detailedDescription}

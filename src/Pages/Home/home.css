@@ -29,7 +29,7 @@ main {
 @media (max-width: 768px) {
   .afterHero {
     flex-direction: column-reverse;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .sidebar {
